@@ -1,0 +1,6 @@
+{
+  "name": "PMac's Heroku Docker Test",
+  "description": "An example app.json for heroku-docker",
+  "image": "heroku/cedar:14",
+  "addons": []
+}
