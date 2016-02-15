@@ -1,6 +1,6 @@
 web:
   build: .
-  command: './script.sh web'
+  command: 'web'
   working_dir: /app/user
   environment:
     PORT: 8080
@@ -8,7 +8,7 @@ web:
     - '8080:8080'
 worker:
   build: .
-  command: './script.sh worker'
+  command: 'worker'
   working_dir: /app/user
   environment:
 shell:

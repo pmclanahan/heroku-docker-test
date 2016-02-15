@@ -1,2 +1,2 @@
-web: ./script.sh web
-worker: ./script.sh worker
+web: web
+worker: worker
